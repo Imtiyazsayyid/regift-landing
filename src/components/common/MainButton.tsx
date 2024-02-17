@@ -1,6 +1,7 @@
 import { forwardRef, ReactElement } from "react";
 import { Loader2 } from "lucide-react";
 import { Button } from "../ui/button";
+import { MouseEvent } from "react";
 
 type MainButtonProps = {
   text: string;
@@ -18,6 +19,7 @@ type MainButtonProps = {
   rightIconClass?: string;
   iconComponent?: ReactElement;
   size?: "small" | "normal" | "large";
+  onClick?: (event: MouseEvent<HTMLButtonElement>) => void;
 };
 
 const MainButton = forwardRef<HTMLButtonElement, MainButtonProps>(
@@ -38,6 +40,7 @@ const MainButton = forwardRef<HTMLButtonElement, MainButtonProps>(
       rightIconClass = "w-[24px] h-[24px]",
       iconComponent,
       size = "normal",
+      onClick,
     },
     ref
   ) => {
@@ -62,7 +65,7 @@ const MainButton = forwardRef<HTMLButtonElement, MainButtonProps>(
         className={`${
           isSecondaryVariant ? "text-normal text-white  bg-secondary" : "bg-primary"
         } text-white shadow-xl ${propWidth} md:${propWidth}  select-none rounded-[0.625rem] hover:opacity-90 ${variant_hover} ${size_height} ${classes}`}
-        onClick={!disabled ? action : () => undefined}
+        onClick={onClick}
         type={isSubmitable ? "submit" : "button"}
         ref={ref}
         disabled={disabled}

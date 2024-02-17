@@ -1,7 +1,7 @@
 import NavBar from "@/components/common/NavBar";
 import FooterSection from "@/components/sections/FooterSection";
 import HeroSection from "@/components/sections/HeroSection";
-import NewsletterSection from "@/components/sections/NewsletterSection";
+import ContactSection from "@/components/sections/ContactSection";
 import ServiceSection from "@/components/sections/ServiceSection";
 import TeamSection from "@/components/sections/TeamSection";
 import TestimonialSection from "@/components/sections/TestimonialSection";
@@ -17,7 +17,7 @@ export default function Home() {
         <VideoPlayerSection />
         <TestimonialSection />
         <TeamSection />
-        <NewsletterSection />
+        <ContactSection />
         <FooterSection />
       </div>
     </main>

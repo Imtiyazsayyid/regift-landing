@@ -1,13 +1,20 @@
 "use client";
 
+import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { X } from "lucide-react";
 import MainButton from "./MainButton";
 
 function NavBar() {
   const [menu, setMenu] = useState(false);
+  const router = useRouter();
   const toggleMenu = () => {
     setMenu(!menu);
+  };
+
+  const navigateToSignUp = () => {
+    router.push("/signup"); // Navigate to SignUpPage
+    setMenu(false); // Close the menu after navigation
   };
 
   return (
@@ -46,7 +53,7 @@ function NavBar() {
             >
               Login
             </p>
-            <MainButton text="Sign up" classes="shadow-none" />
+            <MainButton text="Sign up" classes="shadow-none" onClick={navigateToSignUp} />
           </div>
         </div>
       </div>

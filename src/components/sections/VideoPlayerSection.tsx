@@ -6,11 +6,10 @@ function VideoPlayerSection() {
     <section className="flex flex-col md:flex-row justify-between items-center gap-8 mt-[11.31rem]">
       <div>
         <p className="text-lightBlue font-bold text-2xl ">
-          Many Blocks and Components
+        Guide You to Meaningful Giving
         </p>
         <p className="text-customLightGray text-[1.2rem] mt-4 mb-8">
-          Startup Framework contains components and complex blocks which can
-          easily be integrated into almost any design.{" "}
+        Regift is your compass for impactful giving. With our intuitive platform, you can navigate the world of donations effortlessly. Whether it's toys, clothes, or educational materials, we guide you through the process, ensuring your contributions reach children in need. Share the joy of giving, invite your friends, and let's make a positive impact together.{" "}
         </p>
         <MainButton
           text="Explore"

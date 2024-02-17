@@ -6,11 +6,10 @@ function HeroSection() {
     <section className="flex justify-between flex-col md:flex-row gap-4 items-center">
       <div>
         <p className="font-[850] md:leading-[5.0625rem] text-2xl md:text-[4.375rem] text-darkBlue">
-          We boost growth for your statup business
+             Regift: Share Joy, Share Love
         </p>
         <p className="text-[1.375rem] font-[500]">
-          Our goal is top at the heart of creativity services industry as a
-          digital creator. In has a after comment
+          Empowering generosity lies at the core of our mission in the digital giving realm. Your insights are the compass steering us towards positive change
         </p>
         <div className="flex gap-[1.75rem] items-center mt-[3rem]">
           <MainButton text="Get Started" classes="shadow-none w-[10.125rem]" />
@@ -22,8 +21,8 @@ function HeroSection() {
       </div>
       <div>
         <img
-          src="/images/happy_guy.png"
-          alt="guy with phone surrounded by action icons"
+          src="/images/donate.png"
+          alt="People donating Clothes and other usefull stuff"
         />
       </div>
     </section>

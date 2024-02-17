@@ -9,7 +9,7 @@ function TestimonialSection() {
       imageUrl: "/images/rayhan.jpg",
       reviewerName: "Rayhan Curran",
       review:
-        "Get a fully retina ready site when you build with Startup Framework. Websites look sharper and more gorgeous on devices with retina display support",
+        "Experience the brilliance of Regift's platform with a visually stunning and retina-ready site. Our contributions look even more impactful on devices with retina display support.",
     },
 
     {
@@ -17,20 +17,20 @@ function TestimonialSection() {
       imageUrl: "/images/kayley.jpg",
       reviewerName: "Kayley Frame",
       review:
-        "As a business targeting high net worth individuals, we were looking for a slick, cool and mini-malistic design for our website",
+        "As a business focused on making a difference, we sought a sleek and minimalist design for our website. Regift's user-friendly interface exceeded our expectations.",
     },
     {
       id: 2,
       imageUrl: "/images/gene.jpg",
       reviewerName: "Gene Whitfield",
-      review: "The most important part of the Startup Framework is the samples",
+      review: "I transformed my giving experience in just one day with Regift. The platform is user-friendly, efficient, and my contributions were ready to make a positive impact.",
     },
     {
       id: 3,
       imageUrl: "/images/alan.jpg",
       reviewerName: "Allan Kim",
       review:
-        "I've built my website with Startup just in one day, and it was ready-to-go. ",
+        "The true strength of Regift lies in its diverse samples. These samples have been instrumental in conveying our mission and engaging our community effectively.",
     },
   ];
   return (

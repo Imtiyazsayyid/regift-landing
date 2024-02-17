@@ -6,24 +6,24 @@ function ServiceSection() {
   const serviceData = [
     {
       id: 0,
-      iconUrl: "/images/activity_icon.png",
-      title: "Graphic Design",
+      iconUrl: "/images/donation.png",
+      title: "Effortless Donation",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui mi, bibendum eu erat id, ultricies semper metus. Nunc dapibus laoreet dolor nec imperdiet.",
+        "Experience a seamless donation process with Regift. Our user-friendly platform ensures that your contribution reaches children in need with just a few clicks.",
     },
     {
       id: 1,
-      iconUrl: "/images/video_icon.png",
-      title: "Video Editing",
+      iconUrl: "/images/verifiedOrganisation.png",
+      title: "Verified Organizations",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui mi, bibendum eu erat id, ultricies semper metus. Nunc dapibus laoreet dolor nec imperdiet.",
+        "Rest easy knowing that your donations are channeled through trusted and verified organizations. We rigorously vet and approve organizations to maintain the highest standards.",
     },
     {
       id: 2,
-      iconUrl: "/images/chart_icon.png",
-      title: "Digital Marketing",
+      iconUrl: "/images/transTracking.png",
+      title: "Transparent Tracking",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui mi, bibendum eu erat id, ultricies semper metus. Nunc dapibus laoreet dolor nec imperdiet.",
+        "Stay informed about the journey of your donations. Regift provides transparent tracking, allowing you to follow the progress of your items from donation to delivery.",
     },
   ];
   return (
