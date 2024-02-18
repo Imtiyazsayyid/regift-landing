@@ -1,21 +1,18 @@
 import React from "react";
 import { Separator } from "../ui/separator";
+import { BsGlobe } from "react-icons/bs";
 
 function FooterSection() {
   return (
     <section className="flex flex-col gap-[1.9rem] w-full mt-[10.44rem]">
       <div className="flex flex-col md:flex-row gap-8 justify-between items-center">
-        <div>
-          <img src="/images/footer_logo.png" alt="footer logo" />
+        <div className="flex gap-2">
+          <div className="flex gap-1 text-[16px] items-center select-none">
+            <BsGlobe className="text-3xl" />
+            <p className="font-[850] md:leading-[5.0625rem] text-2xl md:text-[1.375rem] text-darkBlue">Regift</p>
+          </div>
         </div>
-        <div className="text-lightBlue text-[1rem] font-serif">
-          &copy; 2022 Regift. All rights reserved.
-        </div>
-        <div className="flex gap-4">
-          <a href="#how-it-works" className="text-lightBlue text-[1rem]">How It Works</a>
-          <a href="#about" className="text-lightBlue text-[1rem]">About</a>
-          <a href="#login" className="text-lightBlue text-[1rem]">Login</a>
-        </div>
+        <div className="text-lightBlue text-[1rem] font-serif">&copy; 2022 Regift. All rights reserved.</div>
       </div>
       <Separator />
       <div className="pb-[2.56rem]">
