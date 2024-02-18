@@ -14,7 +14,6 @@ export default function Home() {
       <div className="mt-24 md:32 lg:mt-8 px-4  md:px-[9rem]">
         <HeroSection />
         <ServiceSection />
-        <VideoPlayerSection />
         <TestimonialSection />
         <TeamSection />
         <ContactSection />
