@@ -5,7 +5,6 @@ import ContactSection from "@/components/sections/ContactSection";
 import ServiceSection from "@/components/sections/ServiceSection";
 import TeamSection from "@/components/sections/TeamSection";
 import TestimonialSection from "@/components/sections/TestimonialSection";
-import VideoPlayerSection from "@/components/sections/VideoPlayerSection";
 
 export default function Home() {
   return (
