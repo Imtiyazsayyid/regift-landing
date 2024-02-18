@@ -37,10 +37,10 @@ function NavBar() {
               Contacts
             </p>
           </div> */}
-          <div className="flex items-center gap-[40px] select-none">
+          {/* <div className="flex items-center gap-[40px] select-none">
             <p className={`hover:text-primary cursor-pointer flex items-center gap-2  font-[500] text-gray`}>Login</p>
             <MainButton text="Sign up" classes="shadow-none" onClick={navigateToSignUp} />
-          </div>
+          </div> */}
         </div>
       </div>
       {/* MOBILE */}
