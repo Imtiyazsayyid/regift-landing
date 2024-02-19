@@ -6,21 +6,24 @@ function TeamSection() {
   const teamData = [
     {
       id: 0,
-      imageUrl: "/images/vanessa.jpg",
-      name: "Vanessa Laird",
-      profession: "UI Designer",
+      imageUrl:
+        "https://st3.depositphotos.com/6672868/13701/v/450/depositphotos_137014128-stock-illustration-user-profile-icon.jpg",
+      name: "Imtiyaz Sayyid",
+      profession: "Full Stack Developer",
     },
     {
       id: 1,
-      imageUrl: "/images/mason.jpg",
-      name: "Mason Campbell",
-      profession: "UI Designer",
+      imageUrl:
+        "https://st3.depositphotos.com/6672868/13701/v/450/depositphotos_137014128-stock-illustration-user-profile-icon.jpg",
+      name: "Fahad Khan",
+      profession: "Full Stack Developer",
     },
     {
       id: 2,
-      imageUrl: "/images/irea.jpg",
-      name: "Irea Evans",
-      profession: "Client Manager",
+      imageUrl:
+        "https://st3.depositphotos.com/6672868/13701/v/450/depositphotos_137014128-stock-illustration-user-profile-icon.jpg",
+      name: "Ali Shaikh",
+      profession: "Junior Developer",
     },
   ];
   return (
@@ -28,12 +31,7 @@ function TeamSection() {
       <Header title="our team" subtitle="Meet The Team" />
       <div className="grid grid-cols-1 gap-16  md:grid-cols-2 lg:grid-cols-3 mt-8 md:mt-[3.31rem]">
         {teamData.map((team) => (
-          <TeamCard
-            key={team.id}
-            imageUrl={team.imageUrl}
-            name={team.name}
-            profession={team.profession}
-          />
+          <TeamCard key={team.id} imageUrl={team.imageUrl} name={team.name} profession={team.profession} />
         ))}
       </div>
     </section>

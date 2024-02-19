@@ -5,6 +5,7 @@ import ContactSection from "@/components/sections/ContactSection";
 import ServiceSection from "@/components/sections/ServiceSection";
 import TeamSection from "@/components/sections/TeamSection";
 import TestimonialSection from "@/components/sections/TestimonialSection";
+import JoinUsSection from "@/components/sections/JoinUsSection";
 
 export default function Home() {
   return (
@@ -13,9 +14,9 @@ export default function Home() {
       <div className="mt-24 md:32 lg:mt-8 px-4  md:px-[9rem]">
         <HeroSection />
         <ServiceSection />
+        <JoinUsSection />
         <TestimonialSection />
         <TeamSection />
-        <ContactSection />
         <FooterSection />
       </div>
     </main>
